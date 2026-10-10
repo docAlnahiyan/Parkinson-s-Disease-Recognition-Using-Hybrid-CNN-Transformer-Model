@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 from dataset import MRI_Dataset, load_data
 from model import CNN_Transformer
-from train_eval import train, evaluate_metrics, EarlyStopping
+from train import train, evaluate_metrics, EarlyStopping
 import torch.optim as optim
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import matplotlib.pyplot as plt
